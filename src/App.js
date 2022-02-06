@@ -3,6 +3,7 @@ import SOCIAL_PROFILES from "./data/socialProfiles";
 //import PROJECTS from "./data/projects";
 import Projects from "./Projects";
 import SocialProfiles from "./SocialProfiles";
+import Profile from './assets/Profile.jpg';
 
 /* class RegularClass{};
 class ComponentClass extends Component {};
@@ -44,6 +45,7 @@ class App extends Component {
         
         return(
             <div>
+                <img src={Profile} alt='Profile' className='profile'/>
                 <h1>Hello!</h1>
                 <p>My name is Gopu, the Awesome and I'm a cool kid</p>
                 {
